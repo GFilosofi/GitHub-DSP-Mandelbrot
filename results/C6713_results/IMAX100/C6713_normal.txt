@@ -1,0 +1,68 @@
+Time stamp: 03/13/2006 22:55:23
+Program name: C:\CCStudio_v3.1_EVAL\MyProjects\mandel_C6713\Debug\timer1.out
+
+
+Tab name: Profiler
+Address Range	Symbol Name	SLR	Symbol Type	Access Count	CPU.stall.mem.L1D: Incl. Total	CPU.stall.mem.L1D: Excl. Total	CPU.stall.mem.L1P: Incl. Total	CPU.stall.mem.L1P: Excl. Total	L1P.miss.summary: Incl. Total	L1P.miss.summary: Excl. Total	L1D.miss.summary: Incl. Total	L1D.miss.summary: Excl. Total	
+0:0x10f90-0x110ac	mandelinit	162-172:main_timer1.c	function	1	0	0	60	20	15	5	16384	16384	
+0:0x110ac-0x11274	mandsub	181-199:main_timer1.c	function	16384	0	0	28	28	7	7	0	0	
+0:0x10da4-0x10e98	main	135-143:main_timer1.c	loop	128	0	0	40	8	10	2	16383	16383	
+
+
+Tab name: Consultant
+Address Range	Symbol Name	SLR	Estimated Cycles Per Iteration	Estimated Startup Cycles	Analysis	Advice Count	Advice List	
+
+
+Tab name: CodeSizeTune
+Address Range	Symbol Name	
+0:0x10f90-0x110ac	mandelinit	
+0:0x110ac-0x11274	mandsub	
+0:0x10da4-0x10e98	main	
+
+
+Tab name: Summary
+Event	Count	Percentage	
+Total Cycles	94804534		
+NOP cycles	63636324	67.12	
+Stall Cycles	773	0.00	
+L1P Stall Cycles	359	0.00	
+L1D Stall Cycles	261	0.00	
+Insructions decoded	54097590		
+Instructions executed	53244446	98.42	
+Instructions conditioned false	853144	1.58	
+Execute Packets	51577999		
+Branches taken	1731967		
+Total Loads	11933018		
+Total Stores	5245564		
+Instruction cache references	10343220		
+Instruction cache hits	10343127	100.00	
+Instruction cache misses	93	0.00	
+Data cache references	17178582		
+Data cache reads	11933018	69.46	
+Data cache writes	5245564	30.54	
+Data cache hits	17145695	99.81	
+Data cache read hits	11932991	100.00	
+Data cache write hits	5212704	99.37	
+Data cache misses	32887	0.19	
+Data cache read misses	27	0.00	
+Data cache write misses	32860	0.63	
+L2 cache references	0		
+L2 cache data reads	0	0.00	
+L2 cache data writes	0	0.00	
+L2 cache instruction reads	0	0.00	
+L2 cache hits	0	0.00	
+L2 cache data read hits	0	0.00	
+L2 cache data write hits	0	0.00	
+L2 cache instruction hits	0	0.00	
+L2 cache misses	0	0.00	
+L2 cache data read misses	0	0.00	
+L2 cache data write misses	0	0.00	
+L2 cache instruction misses	0	0.00	
+L2 SRAM references	32950		
+L2 SRAM data reads	13	0.04	
+L2 SRAM data writes	32844	99.68	
+L2 SRAM instruction reads	93	0.28	
+DMA reads from SRAM	0		
+DMA writes to SRAM	0		
+
+

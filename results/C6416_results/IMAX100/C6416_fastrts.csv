@@ -1,0 +1,71 @@
+Time stamp: 03/13/2006 23:39:52
+Program name: C:\CCStudio_v3.1_EVAL\MyProjects\mandel_C6416\realtime.out
+
+
+Tab name: Profiler
+Address Range, Symbol Name, SLR, Symbol Type, Access Count, CPU.stall.mem.L1D: Incl. Total, CPU.stall.mem.L1D: Excl. Total, CPU.stall.mem.L1P: Incl. Total, CPU.stall.mem.L1P: Excl. Total, L1P.miss.summary: Incl. Total, L1P.miss.summary: Excl. Total, L1D.miss.summary: Incl. Total, L1D.miss.summary: Excl. Total, 
+0:0x11558-0x11620, mandelinit, 168-183:realtime.c, function, 1, 5, 0, 43, 1, 21, 5, 16385, 16384, 
+0:0x11620-0x117bc, mandsub, 192-224:realtime.c, function, 16384, 0, 0, 30, 12, 13, 5, 0, 0, 
+0:0x11410-0x114ec, main, 135-151:realtime.c, loop, 128, 0, 0, 67, 7, 28, 4, 16383, 16383, 
+
+
+Tab name: Consultant
+Address Range, Symbol Name, SLR, Estimated Cycles Per Iteration, Estimated Startup Cycles, Analysis, Advice Count, Advice List, 
+
+
+Tab name: CodeSizeTune
+Address Range, Symbol Name, 
+0:0x11558-0x11620, mandelinit, 
+0:0x11620-0x117bc, mandsub, 
+0:0x11410-0x114ec, main, 
+
+
+Tab name: Summary
+Event, Count, Percentage, 
+Total Cycles, 251906303, , 
+Core cycles(excl. stalls), 201430720, 79.96, 
+NOP cycles, 31555357, 12.53, 
+Stall Cycles, 50475585, 20.04, 
+Cross Path Stalls, 50474543, 20.04, 
+L1P Stall Cycles, 286, 0.00, 
+L1D Stall Cycles, 391, 0.00, 
+Memory Bank Conflict Stalls, 0, 0.00, 
+Insructions decoded, 387787786, , 
+Instructions executed, 315779501, 81.43, 
+Instructions conditioned false, 72008285, 18.57, 
+Execute Packets, 170725070, , 
+Branches taken, 18628167, , 
+Total Loads, 180547, , 
+Total Stores, 164082, , 
+Instruction cache references, 80231288, , 
+Instruction cache hits, 80231145, 100.00, 
+Instruction cache misses, 143, 0.00, 
+Data cache references, 344629, , 
+Data cache reads, 180547, 52.39, 
+Data cache writes, 164082, 47.61, 
+Data cache hits, 311765, 90.46, 
+Data cache read hits, 180526, 99.99, 
+Data cache write hits, 131239, 79.98, 
+Data cache misses, 32864, 9.54, 
+Data cache read misses, 21, 0.01, 
+Data cache write misses, 32843, 20.02, 
+L2 cache references, 0, , 
+L2 cache data reads, 0, 0.00, 
+L2 cache data writes, 0, 0.00, 
+L2 cache instruction reads, 0, 0.00, 
+L2 cache hits, 0, 0.00, 
+L2 cache data read hits, 0, 0.00, 
+L2 cache data write hits, 0, 0.00, 
+L2 cache instruction hits, 0, 0.00, 
+L2 cache misses, 0, 0.00, 
+L2 cache data read misses, 0, 0.00, 
+L2 cache data write misses, 0, 0.00, 
+L2 cache instruction misses, 0, 0.00, 
+L2 SRAM references, 32974, , 
+L2 SRAM data reads, 8, 0.02, 
+L2 SRAM data writes, 32823, 99.54, 
+L2 SRAM instruction reads, 143, 0.43, 
+DMA reads from SRAM, 0, , 
+DMA writes to SRAM, 0, , 
+
+
