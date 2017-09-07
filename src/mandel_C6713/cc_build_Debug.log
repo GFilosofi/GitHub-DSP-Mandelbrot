@@ -1,0 +1,9 @@
+-----------------------------  timer1.pjt - Debug  -----------------------------
+[main_timer1.c] "C:\CCStudio_v3.1_EVAL\C6000\cgtools\bin\cl6x" -g -q -al -fr"./Debug" -d"CHIP_6713" -mv6710 -@"Debug.lkf" "main_timer1.c"
+"main_timer1.c", line 47: warning: variable "image" was set but never used
+
+[Linking...] "C:\CCStudio_v3.1_EVAL\C6000\cgtools\bin\cl6x" -@"Debug.lkf"
+<Linking>
+
+Build Complete,
+  0 Errors, 1 Warnings, 0 Remarks.

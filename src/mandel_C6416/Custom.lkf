@@ -1,0 +1,7 @@
+-z -cr -heap0x2000 -m"realtime.map" -o"realtime.out" -stack0x2000 -x -i"C:/CCStudio_v3.1_EVAL/C6000/rtdx/lib" -i"C:/CCStudio_v3.1_EVAL/C6000/csl/lib" -i"C:/CCStudio_v3.1_EVAL/C6000/xdais/lib" -i"C:/CCStudio_v3.1_EVAL/C6000/bios/lib" -i"C:/CCStudio_v3.1_EVAL/C6000/cgtools/lib"
+"C:\CCStudio_v3.1_EVAL\C6000\csl\lib\csl6416.lib"
+"C:\CCStudio_v3.1_EVAL\c6400\mthlib\lib\fastrts64x.lib"
+"C:\CCStudio_v3.1_EVAL\C6000\cgtools\lib\rts6400.lib"
+"C:\CCStudio_v3.1_EVAL\MyProjects\mandel_C6416\intvecs.obj"
+"C:\CCStudio_v3.1_EVAL\MyProjects\mandel_C6416\realtime.obj"
+"C:\CCStudio_v3.1_EVAL\MyProjects\mandel_C6416\realtime.cmd"

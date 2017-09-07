@@ -1,0 +1,71 @@
+Time stamp: 03/12/2006 17:46:07
+Program name: C:\CCStudio_v3.1_EVAL\MyProjects\mandel_C6416\realtime.out
+
+
+Tab name: Profiler
+Address Range	Symbol Name	SLR	Symbol Type	Access Count	cycle.Total: Incl. Total	cycle.Total: Excl. Total	
+0:0x1152c-0x115f0	mandelinit	159-174:realtime.c	function	1	214324	214167	
+0:0x115f0-0x117b0	mandsub	183-216:realtime.c	function	16384	59380071	7159624	
+0:0x11410-0x114ec	main	132-148:realtime.c	loop	128	61061863	362482	
+
+
+Tab name: Consultant
+Address Range	Symbol Name	SLR	Estimated Cycles Per Iteration	Estimated Startup Cycles	Analysis	Advice Count	Advice List	cycle.Total: Excl. Total	
+
+
+Tab name: CodeSizeTune
+Address Range	Symbol Name	
+0:0x1152c-0x115f0	mandelinit	
+0:0x115f0-0x117b0	mandsub	
+0:0x11410-0x114ec	main	
+
+
+Tab name: Summary
+Event	Count	Percentage	
+Total Cycles	61278047		
+Core cycles(excl. stalls)	45735947	74.64	
+NOP cycles	7211470	12.73	
+Stall Cycles	15760238	25.72	
+Cross Path Stalls	10911997	17.81	
+L1P Stall Cycles	4645713	7.58	
+L1D Stall Cycles	390	0.00	
+Memory Bank Conflict Stalls	0	0.00	
+Insructions decoded	88591058		
+Instructions executed	72470777	81.80	
+Instructions conditioned false	16120281	18.20	
+Execute Packets	38726262		
+Branches taken	4308317		
+Total Loads	180547		
+Total Stores	164082		
+Instruction cache references	18650945		
+Instruction cache hits	17102328	91.70	
+Instruction cache misses	1548617	8.30	
+Data cache references	344629		
+Data cache reads	180547	52.39	
+Data cache writes	164082	47.61	
+Data cache hits	311765	90.46	
+Data cache read hits	180526	99.99	
+Data cache write hits	131239	79.98	
+Data cache misses	32864	9.54	
+Data cache read misses	21	0.01	
+Data cache write misses	32843	20.02	
+L2 cache references	0		
+L2 cache data reads	0	0.00	
+L2 cache data writes	0	0.00	
+L2 cache instruction reads	0	0.00	
+L2 cache hits	0	0.00	
+L2 cache data read hits	0	0.00	
+L2 cache data write hits	0	0.00	
+L2 cache instruction hits	0	0.00	
+L2 cache misses	0	0.00	
+L2 cache data read misses	0	0.00	
+L2 cache data write misses	0	0.00	
+L2 cache instruction misses	0	0.00	
+L2 SRAM references	1581448		
+L2 SRAM data reads	8	0.00	
+L2 SRAM data writes	32823	2.08	
+L2 SRAM instruction reads	1548617	97.92	
+DMA reads from SRAM	0		
+DMA writes to SRAM	0		
+
+

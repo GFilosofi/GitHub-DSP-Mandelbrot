@@ -1,0 +1,9 @@
+---------------------------  realtime.pjt - Custom  ---------------------------
+[realtime.c] "C:\CCStudio_v3.1_EVAL\C6000\cgtools\bin\cl6x" -g -k -q -o1 -d"CHIP_6416" -mu -ml2 -ms3 -mv6416 -@"Custom.lkf" "realtime.c"
+"realtime.c", line 96: warning: variable "image" was set but never used
+
+[Linking...] "C:\CCStudio_v3.1_EVAL\C6000\cgtools\bin\cl6x" -@"Custom.lkf"
+<Linking>
+
+Build Complete,
+  0 Errors, 1 Warnings, 0 Remarks.

@@ -1,0 +1,41 @@
+# CodeSizeTune Optimizer Session Workspace File - Name=timer1.pws
+# Texas Instruments CST Generated Build File, Format Version 0.02
+# ** DO NOT EDIT **
+
+SSN=="c6x - Default Session"
+
+SET=="_Solution"
+SID=="1"
+SEL=="0"
+IDR=="Solution"
+CVS==" -@"out.cstcmd""
+
+SET=="_MaximumSpeed"
+SID=="1"
+SEL=="1"
+IDR=="Optimizer_1"
+CVS=="-o3 -oi0"
+
+SET=="_AggressiveSpeed"
+SID=="2"
+SEL=="0"
+IDR=="Optimizer_2"
+CVS=="-o3 -oi0 -ms0"
+
+SET=="_Speed"
+SID=="3"
+SEL=="1"
+IDR=="Optimizer_3"
+CVS=="-o3 -oi0 -ms1"
+
+SET=="_Size"
+SID=="4"
+SEL=="0"
+IDR=="Optimizer_4"
+CVS=="-o3 -oi0 -ms2"
+
+SET=="_MinimumSize"
+SID=="5"
+SEL=="1"
+IDR=="Optimizer_5"
+CVS=="-o3 -oi0 -ms3"

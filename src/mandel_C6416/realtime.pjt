@@ -1,0 +1,39 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+
+[Project Settings]
+ProjectName="csl_test"
+ProjectDir="C:\CCStudio_v3.1_EVAL\MyProjects\mandel_C6416\"
+ProjectType=Executable
+CPUFamily=TMS320C64XX
+Tool="Compiler"
+Tool="CustomBuilder"
+Tool="DspBiosBuilder"
+Tool="Linker"
+Config="Custom"
+
+[Source Files]
+Source="..\..\C6000\cgtools\lib\rts6400.lib"
+Source="..\..\C6000\csl\lib\csl6416.lib"
+Source="..\..\c6400\mthlib\lib\fastrts64x.lib"
+Source="intvecs.asm"
+Source="realtime.c"
+Source="realtime.cmd"
+
+["Compiler" Settings: "Custom"]
+Options=-g -k -q -o1 -d"CHIP_6416" -mu -ml2 -ms3 -mv6416
+
+["DspBiosBuilder" Settings: "Custom"]
+Options=-v6x
+
+["Linker" Settings: "Custom"]
+Options=-cr -heap0x2000 -m"realtime.map" -o"realtime.out" -stack0x2000 -x
+
+["..\..\C6000\cgtools\lib\rts6400.lib" Settings: "Custom"]
+LinkOrder=3
+
+["..\..\C6000\csl\lib\csl6416.lib" Settings: "Custom"]
+LinkOrder=1
+
+["..\..\c6400\mthlib\lib\fastrts64x.lib" Settings: "Custom"]
+LinkOrder=2
+

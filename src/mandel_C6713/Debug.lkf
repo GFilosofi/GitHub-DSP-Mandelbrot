@@ -1,0 +1,5 @@
+-z -q -c -o"./Debug/timer1.out" -x -i"C:/CCStudio_v3.1_EVAL/C6000/rtdx/lib" -i"C:/CCStudio_v3.1_EVAL/C6000/csl/lib" -i"C:/CCStudio_v3.1_EVAL/C6000/xdais/lib" -i"C:/CCStudio_v3.1_EVAL/C6000/bios/lib" -i"C:/CCStudio_v3.1_EVAL/C6000/cgtools/lib" -l"csl6713.lib" -l"rts6700.lib"
+"C:\CCStudio_v3.1_EVAL\MyProjects\mandel_C6713\Debug\main_timer1.obj"
+"C:\CCStudio_v3.1_EVAL\MyProjects\mandel_C6713\Debug\vecs_timer1.obj"
+"C:\CCStudio_v3.1_EVAL\C6000\csl\lib\csl6713.lib"
+"C:\CCStudio_v3.1_EVAL\MyProjects\mandel_C6713\timer1.cmd"
